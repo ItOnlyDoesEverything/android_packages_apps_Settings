@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res-auto"
+    android:title="@string/music_stats_title"
+    android:key="music_stats_settings_screen">
+
+    <PreferenceCategory
+        android:title="@string/music_stats_today_title">
+
+        <Preference
+            android:key="music_stats_today_duration"
+            android:title="@string/music_stats_duration_title"
+            android:summary="@string/music_stats_loading"
+            android:icon="@drawable/ic_settings_date_time"
+            settings:controller="com.android.settings.musicstats.MusicStatsController" />
+
+        <Preference
+            android:key="music_stats_most_played_track"
+            android:title="@string/music_stats_top_track_title"
+            android:summary="@string/music_stats_loading"
+            settings:controller="com.android.settings.musicstats.MusicStatsController" />
+
+        <Preference
+            android:key="music_stats_most_played_artist"
+            android:title="@string/music_stats_top_artist_title"
+            android:summary="@string/music_stats_loading"
+            settings:controller="com.android.settings.musicstats.MusicStatsController" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

@@ -14405,4 +14405,13 @@ Data usage charges may apply.</string>
     <!-- Title for supervision PIN verification screen [CHAR LIMIT=60] -->
     <string name="supervision_full_screen_pin_verification_title">Enter supervision PIN</string>
     <string name="accessibility_illustration_content_description"><xliff:g id="feature" example="Select to Speak">%1$s</xliff:g> animation</string>
+
+    <!-- Music Stats -->
+    <string name="music_stats_title">Music Stats</string>
+    <string name="music_stats_summary">View your listening history</string>
+    <string name="music_stats_today_title">Today</string>
+    <string name="music_stats_duration_title">Listening Time</string>
+    <string name="music_stats_top_track_title">Top Track</string>
+    <string name="music_stats_top_artist_title">Top Artist</string>
+    <string name="music_stats_loading">Loading...</string>
 </resources>

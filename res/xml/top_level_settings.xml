@@ -51,6 +51,15 @@
         settings:controller="com.android.settings.connecteddevice.TopLevelConnectedDevicesPreferenceController"/>
 
     <com.android.settings.widget.HomepagePreference
+        android:fragment="com.android.settings.musicstats.MusicStatsFragment"
+        android:icon="@drawable/ic_media_stream"
+        android:key="top_level_music_stats"
+        android:order="-135"
+        android:title="@string/music_stats_title"
+        android:summary="@string/music_stats_summary"
+        settings:controller="com.android.settings.musicstats.TopLevelMusicStatsPreferenceController"/>
+
+    <com.android.settings.widget.HomepagePreference
         android:fragment="com.android.settings.applications.AppDashboardFragment"
         android:icon="@drawable/ic_apps"
         android:key="top_level_apps"
